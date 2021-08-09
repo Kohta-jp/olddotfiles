@@ -212,6 +212,10 @@
 ;; Packages Settings ;;
 ;;;;;;;;;;;;;;;;;;;;;;;
 
+;; indent
+(require 'indent-guide)
+(indent-guide-global-mode)
+
 ;; LSP-Mode +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -325,6 +329,10 @@ The description of ARG is in `neo-buffer--execute'."
 ;;;;;;;;;;;;;;;;
 ;; Programing ;;
 ;;;;;;;;;;;;;;;;
+
+;; electric-pair-mode++++++++++++++++++++++++++++++++++++++++++++
+
+(elecric-pair-mode 1)
 
 ;; WEB-mode++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
