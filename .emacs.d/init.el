@@ -330,9 +330,9 @@ The description of ARG is in `neo-buffer--execute'."
 ;; Programing ;;
 ;;;;;;;;;;;;;;;;
 
-;; electric-pair-mode++++++++++++++++++++++++++++++++++++++++++++
-
-(elecric-pair-mode 1)
+;; smartpatarns++++++++++++++++++++++++++++++++++++++++++++
+(require 'smartparens-config)
+(smartparens-global-mode t)
 
 ;; WEB-mode++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
